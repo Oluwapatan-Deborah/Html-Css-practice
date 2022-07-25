@@ -1,2 +1,2 @@
-# js-practice
+# practice
  
