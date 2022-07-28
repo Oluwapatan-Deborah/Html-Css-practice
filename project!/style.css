@@ -6,6 +6,14 @@
 
 
 }
+.home_page a:hover{
+    color:#00A8CC;
+}
+.home_page a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#7c7575;
+}
 nav{
     display: flex;
     justify-content:space-between;
@@ -13,7 +21,13 @@ nav{
 }
 
 .nav-items a{
-    margin-left: 10px;   
+    margin-left: 10px;  
+    font-weight: bold; 
+    color: rgb(22, 22, 22);
+    text-decoration: none;
+}
+.nav-items a:hover{
+    color: #fa4545;
 }
 .nav-items{
 margin-right: 25px;
@@ -43,8 +57,8 @@ padding-left:2px;
 }
 .image-div img{
     border-radius:50%;
-    width: 243px;
-    height: 243px;
+    width: 350px;
+    height: 350px;
     padding: 20px;
     margin-left: 50px;
 }
@@ -71,9 +85,10 @@ padding-left:2px;
     /* padding-top: 16px; */
     margin-left: 62%;
     color:#00A8CC;
+    text-decoration: none;
 }
 .nav-two a:hover{
-    color: #21cef5;
+    color: #0789a7;
 }
 .section-two{
     display: flex;
