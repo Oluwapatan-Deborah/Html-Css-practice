@@ -71,3 +71,68 @@
     .copyright p{
         padding-bottom:50px;
     }
+
+
+    /* contacts style */
+
+
+    .contact_page{
+        color:#7c7575;
+        font-weight:bold;
+    }
+    .container{
+        background-color: white;
+        height:100vh;
+        display:flex;
+        justify-content: center;
+        padding-top:50px;
+        padding-bottom:20px;
+    }
+    .contact_div{
+        border:2px solid #E5E5E5;
+        border-radius:10%;
+        width:40%;
+        padding:10px;
+        background-color:#E5E5E5
+    }
+    .contact_div h1{
+        padding-top:50px;
+        padding-bottom:50px;
+        text-align: center;
+    }
+    .contact{
+        text-align:center;
+    }
+    .contact div{
+        padding-bottom:20px;
+    }
+    input{
+        padding:10px;
+        border-radius:10px;
+        border-color:white;
+        width:250px;
+    }
+    textarea{
+        padding:10px;
+        border-radius:10px;
+        border-color:white;
+    }
+    select{
+        width: 50%;
+    }
+    .btn{
+        background-color:#868282;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 16px;
+        /* margin-left:40px; */
+        width:30%;
+        /* font-weight:bold; */
+    }
+    .btn:hover{
+        background-color:#E5E5E5;
+    }
+    .footer p{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }

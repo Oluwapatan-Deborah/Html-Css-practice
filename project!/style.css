@@ -37,7 +37,6 @@ padding-top:8px ;
 padding-left:2px;
 }
 .first-div{
-    /* height: 50vh; */
     width: 50%;
     padding-top: 50px;
     text-align: left;
@@ -60,7 +59,7 @@ padding-left:2px;
     width: 350px;
     height: 350px;
     padding: 20px;
-    margin-left: 50px;
+    margin-left:50px;
 }
 .image-div{
     width: 50%;
@@ -76,14 +75,12 @@ padding-left:2px;
 .nav-two{
     align-items: center;
     display: flex;
-    margin-left:100px;
+    justify-content:center;
 }
-/* .nav-two p{
-    margin-right:0px;
-} */
+.nav-two p{
+    padding-right:600px;
+}
 .nav-two a{
-    /* padding-top: 16px; */
-    margin-left: 62%;
     color:#00A8CC;
     text-decoration: none;
 }
@@ -223,4 +220,7 @@ display: inline;
 }
 .social-items{
     margin-left:15px;
+}
+.copyright p{
+    padding-left: 50px;
 }
